@@ -1,5 +1,5 @@
 ~~ FORMATO: <NOME DO CANAL> | <GRUPO> | <URL LOGO> | <TVG-ID> |
 ~~         <URL YOUTUBE LIVE>
 
-newsebc |  |  |  |
+ewsebc |  |  |  |
 https://www.youtube.com/newsebc/live
