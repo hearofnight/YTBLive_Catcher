@@ -1,3 +1,5 @@
+CitNews.txt
+NewsEbc.txt
 BandNews.txt
 BoaVontadeTV.txt
 CazeTV.txt
