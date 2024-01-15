@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 从URL读取频道列表
-CHANNEL_URL="https://raw.githubusercontent.com/hearofnight/YTBLive_Catcher/main/sources/sources/ChannelNeed.txt"
+CHANNEL_URL="https://raw.githubusercontent.com/hearofnight/YTBLive_Catcher/main/sources/ChannelNeed.txt"
 CHANNELS=($(curl -s "$CHANNEL_URL"))
 
 # 遍历每个频道
