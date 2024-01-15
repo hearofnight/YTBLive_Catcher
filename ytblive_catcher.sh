@@ -6,6 +6,10 @@
 python3 -m pip install requests
 
 ## LISTA DE CANAIS A SEREM CAPTURADOS
+python3 /home/runner/work/YTBLive_Catcher/YTBLive_Catcher/scripts/CitNews.py > channels/CitNews.m3u8
+sleep 3
+python3 /home/runner/work/YTBLive_Catcher/YTBLive_Catcher/scripts/NewsEbc.py > channels/NewsEbc.m3u8
+sleep 3
 python3 /home/runner/work/YTBLive_Catcher/YTBLive_Catcher/scripts/BandNews.py > channels/BandNews.m3u8
 sleep 3
 python3 /home/runner/work/YTBLive_Catcher/YTBLive_Catcher/scripts/BoaVontadeTV.py > channels/BoaVontadeTV.m3u8
