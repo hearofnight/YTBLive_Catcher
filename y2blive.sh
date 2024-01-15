@@ -4,7 +4,7 @@
 CHANNEL_URL="https://raw.githubusercontent.com/hearofnight/YTBLive_Catcher/main/sources/ChannelNeed.txt"
 CHANNELS=($(curl -s "$CHANNEL_URL"))
 #初始化频道信息文件夹和日志文件
-mkdir -p newchannels
+mkdir -p {newchannels，logs}
 touch logs/youtube_live_`date +%Y%m%d`.log
 # 遍历每个频道
 for channel in "${CHANNELS[@]}"; do
